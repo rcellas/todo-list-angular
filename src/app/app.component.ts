@@ -3,8 +3,14 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'todo-list-angular';
+  title = 'angular-masterclass';
+  headerTitel = 'Estudiar Js';
+
+
+  showMessage(){
+    alert('Boton click')
+  }
 }

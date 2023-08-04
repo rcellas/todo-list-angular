@@ -1,0 +1,12 @@
+<section class="flex flex-col space-y-4 mt-6">
+  <!-- para hacer directivas lo que vamos hacer es algo muy similar a Vue-->
+  <!-- Lo que hace el ngFor es que hacer el mapeo de la información en este caso
+      lo que se le esta especificando es que mire la tarea de las tareas
+  -->
+  <!-- Para pasar los valores al hijo lo que hacemos es ponerlo de la siguiente forma [task]="task"
+      lo que esta en el array representa a la variable a la cual va ir la información
+      y lo que esta entre comillas los valores que tenemos actualmente
+  -->
+  <app-task-form (onAddTask)="createTask($event)"></app-task-form>
+  <app-task-item *ngFor="let task of tasks" [task]="task" (onDeleteTask)="deleteTask(task)" (onToggleTask)="toggleTask(task)"></app-task-item>
+</section>
