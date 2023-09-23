@@ -1,7 +1,20 @@
 # Todo list anguilar
 
-Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) versión 15.1.4.
+## Descripción
+Este proyecto es una lista de tareas, donde se puede añadir, eliminar y marcar como completada una tarea. Además, se puede filtrar por tareas completadas, pendientes o todas.
 
+
+## Resultado final
+![Todo list](./src/assets/img/captura_projecto_final.png)
+
+## Tecnologías
+- Angular (version 15.1.0)
+- Typescript
+- HTML
+- CSS
+- Json-server
+- Tailwind
+  
 ## Instrucciones para ver el proyecto en local
 ### Paso 1
 Clona el proyecto en el botón verde que pone **code**
