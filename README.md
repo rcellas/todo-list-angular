@@ -1,27 +1,19 @@
-# AngularMasterclass
+# Todo list anguilar
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) versión 15.1.4.
 
-## Development server
+## Instrucciones para ver el proyecto en local
+### Paso 1
+Clona el proyecto en el botón verde que pone **code**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Paso 2
+Pon el comando, dentro de la carpeta del proyecto para instalar todo lo que necesita el proyecto para su funcionamiento
+`npm i` o `npm install`
 
-## Code scaffolding
+### Paso 3
+Acciona el json-serve para que muestre los datos
+` json-server --watch db.json --port 3000`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Paso 4
+Haz correr para ver la app `ng serve`. Navegue hasta `http://localhost:4200/`. La aplicación se recargará automáticamente si cambia alguno de los archivos fuente.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
